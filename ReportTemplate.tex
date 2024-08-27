@@ -1,0 +1,84 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsthm, ulem, graphicx, marvosym, amscd, amssymb, enumerate, mathrsfs, multicol, comment, times, inputenc, amssymb, setspace, tocloft, tabu, fancyhdr, caption, subcaption, float, titletoc, appendix, tikz, enumitem, indentfirst, textcase, titlesec, mathtools, multicol, wrapfig, siunitx, pdfpages}
+
+\setlength\parindent{0pt}
+\usepackage[rightcaption]{sidecap}
+\usepackage[export]{adjustbox}
+\graphicspath{ {images/} }
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage[backend=biber, style=alphabetic, sorting=ynt]{biblatex}
+
+\newcommand\Z{{\mathbb Z}}
+\newcommand\F{{\mathbb F}}
+\newcommand\N{{\mathbb N}}
+\newcommand\A{{\mathbf A}}
+\newcommand\p{{\mathscr P}}
+\newcommand\R{{\mathbb R}}
+\newcommand\Q{{\mathbb Q}}
+\newcommand\C{{\mathbb C}}
+\newcommand\bfx{{\mathbf x}}
+\newcommand\bfb{{\mathbf b}}
+\newcommand\bfv{{\mathbf v}}
+\newcommand\bfy{{\mathbf y}}
+\newcommand\bfw{{\mathbf w}}
+\newcommand\bfu{{\mathbf u}}
+\newcommand\Mn{\mathbb{M}_{n}}
+\newcommand\bfa{\mathbf{a}}
+\newcommand\proj{\mbox{proj}}
+\newcommand\Span{\mbox{Span}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+
+\usepackage[left=0.6in, right=0.6in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,
+urlcolor=cyan}
+
+\DeclareMathOperator{\lcm}{lcm}
+\newcommand{\beas}{\begin{eqnarray*}}
+\newcommand{\eeas}{\end{eqnarray*}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem{cor}{Corollary}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}
+\newtheorem{definition}{Definition}
+\newtheorem{exam}{Example}
+\newtheorem{example}{Example}
+\newtheorem{examples}{Examples}
+\newtheorem{thmdef}{Theorem-Definition}
+\newtheorem{rmk}{Remark}
+\newtheorem{notation}{Notation}
+\newtheorem{thmdefi}{Theorem-Definition}
+\newtheorem{con}{Conjecture}
+
+
+\begin{document}
+
+\title{{\Huge \textbf{Nuclear Physics Lab Report}{\large\linebreak\\}}{\LARGE \textbf{Group - A07}\linebreak\linebreak}}
+
+\author{\\Name: Navonila Karmakar\\
+Roll ID: 22MS040\\
+\\Name: Debanjan Sinhamahapatra\\
+Roll ID: 22MS047\\
+\\Name: Siddhant Gupta\\
+Roll ID: 22MS039\\\\
+BS-MS 3rd year Physics Lab\\\\
+}
+
+\date{\today}
+\maketitle
+\newpage
+
+\include{data}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{PH3105_exp3.pdf}
+\end{figure}
+\end{document}
+
